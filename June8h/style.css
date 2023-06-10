@@ -1,0 +1,65 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    height: 80px;
+    width: auto;
+    border: 2px solid black;
+    background-color: black;
+}
+.contact{
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: gray;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.text{
+    height: 800px;
+    width: 700px;
+    border: 3px solid red;
+    margin: auto;
+    text-align: center;
+}
+.list{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: left;
+    overflow: scroll;   
+}
+.div-img{
+    float: right;
+    margin: auto;
+    position: absolute;
+    top: 165px;
+    right: 580px;
+}
+.imgs{
+    height: 300px;
+    width: 300px;
+    position: absolute;   
+    left: 10px;
+}
+.imgs2{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 375px;
+    left: 10px;
+}
+.bottom{
+    height: 200px;
+    width: auto;
+    border: 3px solid red; 
+}
