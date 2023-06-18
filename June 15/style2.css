@@ -1,0 +1,25 @@
+.cover{
+    border: 2px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse; 
+}
+.head{
+    height: 40px;
+    width: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;   
+    padding-left: 5px;     
+}
+.table{
+    border: 1px solid black;  
+    vertical-align: top;
+}
+.text{
+    border: 1px solid black;  
+    padding-left: 10px;  
+}
+.text2{
+    border: 1px solid black;  
+    text-align: center;  
+}
