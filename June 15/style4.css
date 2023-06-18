@@ -1,0 +1,18 @@
+.form{
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    background-color: rgb(199, 193, 193);
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}   
+.enter{
+    color:  blue;
+    font-size: 30px;
+    text-align: center;
+}
+.printin{
+    text-align: right; 
+    padding-right: 80px; 
+}
