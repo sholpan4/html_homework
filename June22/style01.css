@@ -1,0 +1,48 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    height: 40px;
+    width: 100%;
+    /* outline: 1px solid black; */
+}
+
+.line_bottoms{
+    height: 20px;
+    width: auto; 
+    /* display: inline-block; */
+    float: right;
+    text-align: center;
+
+}
+.home{
+    height: 20px;
+    width: 100px;
+    /* outline: 1px solid black; */
+    display: inline-block;
+    padding: auto;
+    margin-right: 20px;
+    color: gray;    
+}
+
+.login{
+    height: 20px;
+    width: 100px;
+    border: 1px solid orange;
+    display: inline-block;
+    color: orange;
+    padding: 2px;
+    border-radius: 10%;
+}
+
+.reverse_login{
+    height: 20px;
+    width: 100px;
+    border: 1px solid orange;
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    border-radius: 10%;
+}
