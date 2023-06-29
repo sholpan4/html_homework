@@ -2,7 +2,7 @@
     min-height: 1500px;
     width: 1300px;
     margin: auto;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 
 .left_side{
@@ -16,21 +16,37 @@
     float: left;
     width: 480px;
     height: 450px;
-    outline: 1px solid black;     
+    /* outline: 1px solid black;      */
 }
 
 .right_side{
     min-height: 300px;
     width: 50%;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     float: right;
 }
 
 .text{
-    height: 300px;
-    width: 600px;
+    height: auto;
+    width: 400px;
     float: right;
     margin-top: 100px;
-    margin-right: 100px;
-    outline: 1px solid black;
+    margin-right: 200px;
+    /* outline: 1px solid black; */
+}
+
+.text_gray{
+    color: gray;
+}
+
+.reverse_login3{
+    height: 20px;
+    width: 100px;
+    border: 1px solid orange;
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    border-radius: 10%;
+    margin-top: 40px;
+    text-align: center;
 }
