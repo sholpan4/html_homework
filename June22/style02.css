@@ -1,0 +1,60 @@
+.wrapper{
+    min-height: 1500px;
+    width: 1300px;
+    margin: auto;
+    /* outline: 1px solid black; */
+}
+
+.left_side{
+    min-height: 300px;
+    width: 50%;
+    /* outline: 1px solid black; */
+    float: left;
+}
+
+.travel{
+    height: 100px;
+    min-width: auto;
+    /* outline: 1px solid black; */
+}
+
+.topik{
+    height: 100px;
+    width: 200px;
+    /* outline: 1px solid black;  */
+}
+.topik2{
+    height: 20px;
+    width: 100px;
+    /* outline: 1px solid black;  */
+}
+
+.datalist{
+    margin-top: 20px;
+    display: inline-block;    
+}
+
+.reverse_login2{
+    height: 20px;
+    width: 100px;
+    border: 1px solid orange;
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    border-radius: 10%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.right_side{
+    min-height: 1000px;
+    width: 50%;
+    float: right;
+}
+.img1{
+    background-image: url("img/1.bmp");
+    float: right;
+    width: 480px;
+    height: 450px;
+    /* outline: 1px solid black;  */    
+}
