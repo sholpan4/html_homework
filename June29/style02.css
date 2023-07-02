@@ -12,7 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     justify-content: center;
     align-items: flex-start;
 }

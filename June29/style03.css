@@ -3,3 +3,45 @@
     margin: 0px;
 }
 
+.top{
+    background-color: green;
+    width: 100%;
+    /* max-width: 960px; */
+    /* min-width: 460px; */
+    min-height: 100px;
+    /* margin: 0 auto 40px; */
+}
+
+.to-do{
+    background-color: gray;
+    width: 400px;
+    height: auto;
+    outline: 1px solid black;
+    margin: 30px 10px auto;
+}
+
+.task{
+    background-color: white;
+    width: 390px;
+    align-items: center;    
+}
+
+.comment{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+}
+
+.left{
+    width: 80%;
+}
+
+.right{
+    width: 20%;
+}
+
+.comment-in{
+    display: inline-block;
+    margin: 0px 5px auto;
+    font-size: 25px;
+}
