@@ -1,6 +1,6 @@
 .wrapper{
-    min-height: 1500px;
-    width: 1300px;
+    min-height: 500px;
+    width: 1000px;
     margin: auto;
     /* outline: 1px solid black; */
 }
@@ -30,8 +30,8 @@
     height: auto;
     width: 400px;
     float: right;
-    margin-top: 100px;
-    margin-right: 200px;
+    margin-top: 80px;
+    margin-right: 100px;
     /* outline: 1px solid black; */
 }
 
@@ -48,5 +48,26 @@
     padding: 2px;
     border-radius: 10%;
     margin-top: 40px;
+    text-align: center;
+}
+
+.display{
+    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+.div-img3{
+    width: 200px;
+    height: 200px;
+    /* outline: 1px solid black;      */
+}
+
+.txt{
+    color: gray;
+}
+
+.ttl1{
     text-align: center;
 }
