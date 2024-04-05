@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, #fff 0%, #aaa 100%) no-repeat;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        body {
+            text-align: center;
+            display: table;
+            background: black;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        canvas {display:block;}
+        
+        #website {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color : #0F0;
+            z-index : 1;
+            box-sizing: border-box;
+            vertical-align: middle;
+        }
+    
+        span {
+            font-family: monospace;
+            font-size: 1.5em;
+        }
+        span:after {
+            content:" Page Not Found";
+            opacity: 0;
+            animation: cursor 1s infinite;
+        }
+        @keyframes cursor {
+            0% {
+                opacity: 0;
+            }
+            40% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    
+    </style>
+
+</head>
+<body>
+    <canvas id="c" height="930" width="719"></canvas>
+    <span id="'website">
+        METANIT.COM
+        ::after
+    </span>
+    <script>
+        
+        var c = document.getElementById("c");
+        var ctx = c.getContext("2d");
+
+        c.height = window.innerHeight;
+        c.width = window.innerWidth;
+
+        var matrix = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%";
+        matrix = matrix.split("");
+
+        var font_size = 10;
+        var columns = c.width / font_size; 
+        var drops = [];
+        for(var x = 0; x < columns; x++)
+            drops[x] = 1; 
+
+        function draw()
+        {
+            ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+            ctx.fillRect(0, 0, c.width, c.height);
+
+            ctx.fillStyle = "#0F0";
+            ctx.font = font_size + "px arial";
+            for( var i = 0; i < drops.length; i++ )
+            {
+                var text = matrix[ Math.floor( Math.random() * matrix.length ) ];
+                ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+                if( drops[i] * font_size > c.height && Math.random() > 0.975 )
+                    drops[i] = 0;
+
+                drops[i]++;
+            }
+        }
+
+        setInterval( draw, 35 );
+
+    </script>
+</body>
+</html>
